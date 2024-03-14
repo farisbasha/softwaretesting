@@ -90,3 +90,40 @@ Cost of error correction increases as software development progresses:
     - **Meet user expectations:** Ensures software meets user needs and delivers value.
     - **Support scalability:** Tests scalability to handle increased workload or users.
     - **Reduce support burden:** Minimizes post-release issues, reducing support requests and costs.
+  
+
+## **7.Describe various types of software testing techniques and also discuss the purposes and objectives of each type of testing.**
+
+1. **Unit Testing**:
+    - **Purpose**: Test individual units of code.
+    - **Objective**: Identify defects in isolated components early.
+
+2. **Integration Testing**:
+    - **Purpose**: Test interactions between integrated components.
+    - **Objective**: Validate communication and data exchange.
+
+3. **System Testing**:
+    - **Purpose**: Test entire software system functionality.
+    - **Objective**: Validate compliance with requirements.
+
+4. **Acceptance Testing**:
+    - **Purpose**: Validate software meets user requirements.
+    - **Objective**: Ensure user satisfaction before deployment.
+
+5. **Regression Testing**:
+    - **Purpose**: Ensure existing features still work post-changes.
+    - **Objective**: Prevent unintended side effects from updates.
+
+6. **Performance Testing**:
+    - **Purpose**: Evaluate software speed and scalability.
+    - **Objective**: Identify and fix performance bottlenecks.
+
+7. **Security Testing**:
+    - **Purpose**: Identify vulnerabilities and protect against threats.
+    - **Objective**: Ensure software resilience to security attacks.
+
+8. **Usability Testing**:
+    - **Purpose**: Evaluate user interface design and experience.
+    - **Objective**: Improve user satisfaction and adoption.
+
+
