@@ -196,3 +196,19 @@ Mutation Testing evaluates the effectiveness of existing tests and helps design 
 2. **Improving Test Suite Quality:** Guides enhancement of test suite effectiveness.
 3. **Detecting Hidden Defects:** Uncovers defects missed by other testing methods.
 4. **Measuring Code Quality:** Provides a quantitative measure of test suite effectiveness.
+
+## **11.Discuss different types of dynamic unit testing techniques: domain testing and functional program testing. Provide examples to illustrate each technique**
+
+**Dynamic Unit Testing Techniques:**
+
+1. **Domain Testing:**
+   - Focuses on testing specific input domains or ranges within the code.
+   - Example: Testing a square root function with positive, negative, zero, large, and decimal numbers.
+   <img width="347" alt="Screenshot 2024-03-14 at 10 39 12 PM" src="https://github.com/farisbasha/softwaretesting/assets/72191505/3c6be806-dc9a-4ccf-a80b-da5938d1b381">
+
+
+2. **Functional Program Testing:**
+   - Tests the functionality of the program by executing specific program functions or methods.
+   - Example: Testing a sorting function with different input arrays, including random, sorted, reverse sorted, and arrays with duplicates.
+   - <img width="272" alt="Screenshot 2024-03-14 at 10 38 37 PM" src="https://github.com/farisbasha/softwaretesting/assets/72191505/31c37fe0-9037-489c-939c-1d501086d345">
+
