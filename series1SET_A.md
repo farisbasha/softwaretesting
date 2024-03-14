@@ -127,3 +127,34 @@ Cost of error correction increases as software development progresses:
     - **Objective**: Improve user satisfaction and adoption.
 
 
+## **8.Describe the role of testing in ensuring software quality and discuss its impact on overall software development processes. Provide a real-world example illustrating the importance of testing in software development.**
+
+**Role of Testing in Ensuring Software Quality:**
+
+Testing ensures software quality by:
+1. Identifying defects early.
+2. Verifying functionality meets requirements.
+3. Validating performance under various conditions.
+
+**Impact on Overall Software Development Processes:**
+
+1. **Early Detection and Prevention**: Reduces time and effort in fixing defects.
+2. **Improvement of Software Quality**: Enhances user satisfaction and trust.
+3. **Risk Mitigation**: Reduces project failure risks.
+4. **Continuous Improvement**: Drives optimization and innovation.
+
+**Real-World Example:**
+
+In the Ariane 5 rocket launch failure, a software bug led to a catastrophic failure. Thorough testing could have prevented this, emphasizing the importance of testing in critical systems.
+
+
+```python
+def divide(x, y):
+    return x / y
+
+# Test case
+divide(10, 0)  # Raises DivisionByZero error
+```
+
+In this concise example, the test case checks for the division by zero scenario, emphasizing the importance of testing to catch potential errors before deployment.
+
