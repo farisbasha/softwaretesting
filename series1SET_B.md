@@ -154,18 +154,19 @@ Testing Process with Different Levels of Thinking:
 ## **9.Describe the difference between static unit testing and dynamic unit testing. Provide examples of tools or techniques used in each type of testing.**
 
 
+
 | Aspect          | Static Unit Testing                      | Dynamic Unit Testing                  |
 |-----------------|-----------------------------------------|---------------------------------------|
 | **Definition**  | Analyzes code without execution.         | Executes code, evaluates behavior.    |
 | **Purpose**     | Identifies defects pre-runtime.         | Validates behavior post-runtime.      |
 | **Timing**      | Pre-runtime during development.          | Post-runtime after code execution.    |
 | **Focus**       | Code structure, standards compliance.    | Functional behavior, performance.     |
-| **Granularity** | Whole codebase or specific components.   | Units or modules, integration tests. |
-| **Approach**    | Static analysis, code review.            | Test case execution, debugging.       |
-| **Automation**  | Tools for automated code inspection.     | Test automation frameworks.           |
+| **Technique**    | Static analysis, code review.            | Test case execution, debugging.       |
+| **Tools**  | Tools for automated code inspection (e.g., SonarQube, Checkstyle). | Test automation frameworks (e.g., JUnit, TestNG).|
 | **Interactivity** | Minimal interaction with code.         | Direct interaction with code.         |
 | **Scope**       | Broader view of codebase.                | Specific functionality or features.   |
 | **Feedback**    | Early feedback on potential issues.      | Immediate feedback on behavior.        |
+
 
 
 
