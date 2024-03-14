@@ -39,7 +39,7 @@
    $\(\frac{{\text{{Number of statements executed}}}}{{\text{{Total Number of statements}}}} \times 100\)$
 
 2. **Decision Coverage/Branch Coverage**:
-   $\(\frac{{\text{{Number of decision/branch outcomes exercised}}}}{{\text{{Total number of decision outcomes in the source code}}}} \times 100\)$
+   $\(\frac{{\text{{Number of decision/branch outcomes executed}}}}{{\text{{Total number of decision outcomes }}}} \times 100\)$
 
 3. **Function Coverage**:
  $\(\frac{{\text{{Number of functions called}}}}{{\text{{Total number of functions}}}} \times 100\)$
