@@ -16,7 +16,7 @@
 | Provides input values to the component       | Mimics output of called components            |
 | Ensures interaction with other components    | Allows testing of individual units in isolation |
 | Handles test setup and teardown activities   | Simplifies integration testing                |
-| Used in top-down integration testing         | Used in bottom-up integration testing         |
+| Used in bottom-up integration testing         | Used in top-down integration testing         |
 
 ## **3.What are du paths and du pairs in a data flow graph?**
 
