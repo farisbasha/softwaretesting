@@ -33,6 +33,25 @@ Scenario: Testing a login system for a web application.
 # Part B
 
 ## 6.Draw CFG fragment for (i) Simple if (ii) Switch case (iii) Simple loop 
+![untitled](https://github.com/farisbasha/softwaretesting/assets/72191505/2557ec00-4722-4ff3-9757-b008def13eff)
+
+
+
+### i) Simple if
+<img width="350" alt="Screenshot 2024-04-21 at 5 42 30 PM" src="https://github.com/farisbasha/softwaretesting/assets/72191505/aa9b619a-36b5-4fee-896a-9adc0e50f3a8">
+
+
+### ii) Switch-case
+
+<img width="350" alt="Screenshot 2024-04-21 at 5 43 25 PM" src="https://github.com/farisbasha/softwaretesting/assets/72191505/3461191e-6516-4302-a10b-f9f49c9e435f">
+
+> NOTE: You can use any simple program , this is just an example
+### iii) Simple Loop
+
+<img width="350" alt="Screenshot 2024-04-21 at 5 44 26 PM" src="https://github.com/farisbasha/softwaretesting/assets/72191505/49776d53-833d-4a36-9d41-b7c24bf7e9b3">
+
+> NOTE: You can use any simple program , this is just an example
+
 
 ## 7.Describe the Subsumption Relationships among Graph Coverage Criteria. How do these relationships influence the selection and implementation of testing strategies?
 <img width="399" alt="Screenshot 2024-04-21 at 8 25 22 PM" src="https://github.com/farisbasha/softwaretesting/assets/72191505/338c588f-5056-490d-a479-7c6f5a31499f">
@@ -177,6 +196,27 @@ Valid Test cases: Valid test cases for the above can be any value entered greate
 Invalid Testcases: When any value less than 18 and greater than 56 is entered.
 
 
-## 12.
+## 12. Describe the functional testing methodology and list its types
+Functional Testing Methodology:
+
+- **Definition**: Verifies the functionality of a software system or application to ensure it behaves according to specified requirements and business needs.
+
+- **Goal**: Validate system features, capabilities, and interactions with components to ensure it works as intended.
+
+- **Focus**: Tests input and output, data manipulation, user interactions, and system responses to various scenarios and conditions.
+
+Types of Functional Testing:
+
+1. **Unit Testing**: Performed by developers to test individual components or units of an application against requirements. Ensures code coverage including line, code path, and method coverage.
+
+2. **Smoke Testing**: Conducted after each build release to verify software stability and absence of anomalies.
+
+3. **Sanity Testing**: Follows smoke testing to ensure major functionalities work perfectly, both independently and in combination with others.
+
+4. **Regression Testing**: Ensures changes to the codebase do not disrupt existing functions or cause instability.
+
+5. **Integration Testing**: Validates that functional modules work as expected when operating together, ensuring end-to-end system outcomes meet standards.
+
+6. **Beta/Usability Testing**: Involves actual customers testing the product in a production environment to gauge interface comfort and provide feedback for further improvements.
 
 
