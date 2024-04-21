@@ -127,12 +127,96 @@ Utilization for Improved Testing:
 ### ii) Switch-case
 
 <img width="590" alt="Screenshot 2024-04-21 at 5 43 25 PM" src="https://github.com/farisbasha/softwaretesting/assets/72191505/3461191e-6516-4302-a10b-f9f49c9e435f">
+
 > NOTE: You can use any simple program , this is just an example
 ### iii) Simple Loop
 
 <img width="460" alt="Screenshot 2024-04-21 at 5 44 26 PM" src="https://github.com/farisbasha/softwaretesting/assets/72191505/49776d53-833d-4a36-9d41-b7c24bf7e9b3">
+
 > NOTE: You can use any simple program , this is just an example
 
 
 
-## 9.
+## 9.Compare and contrast ACoC and ECC testing techniques. Provide insights into where each technique would be more appropriate to use
+### Skip if possible 😮‍💨
+> A very short simple answer for this is question
+
+| Aspect               | ACoC Testing                                     | ECC Testing                                   |
+|----------------------|--------------------------------------------------|-----------------------------------------------|
+| Methodology          | Systematic, covering all combinations            | Ad hoc, focusing on likely error-prone areas |
+| Coverage             | Exhaustive                                       | Non-exhaustive                                |
+| Suitability          | Critical systems with complex interactions      | Quick identification of potential faults      |
+| Efficiency           | Resource-intensive                               | Generally more efficient                      |
+| Risk Mitigation      | Mitigates risks associated with complex interactions | Identifies and addresses risks early       |
+| Complexity           | Can be complex for systems with numerous input categories | Generally less complex                  |
+| Time                | Time-consuming due to exhaustive nature       | Typically faster due to less exhaustive approach  |
+
+
+## 10.Describe Computation error and Domain error using examples.
+
+| Aspect       | Computation Error                                          | Domain Error                                    |
+|--------------------|------------------------------------------------------------|-------------------------------------------------|
+| Definition         | A computation error occurs when a specific input data causes the correct path to execute, but the output value is wrong. | A domain error occurs when a specific input data causes the program to execute a wrong (i.e. undesired) path |
+| Example            | Adding 0.1 and 0.2 in a programming language results in 0.30000000000000004 due to floating-point precision issues. | Attempting to calculate the square root of a negative number. |
+| Cause              | Faulty implementation, algorithmic mistakes, or rounding errors. | Input values violating constraints or assumptions. |
+| Impact             | Results in incorrect output or unexpected behavior.         | Causes program crashes or undefined behavior.   |
+| Detection          | Detected during testing or validation of computations.     | Detected through boundary checking or input validation. |
+| Resolution         | Requires debugging, code review, or algorithm refinement.  | Handling through input validation or error handling mechanisms. |
+| Additional Types   | Overflow Error , Underflow Error                                           | Closed boundary, Open boundary, Closed domain, Open domain   |
+
+
+
+## 11.What is the importance of Input Domain Modelling (IDM) and what are its approaches?
+Importance of Input Domain Modelling (IDM) and its Approaches:
+
+- **Definition**: IDM defines the scope of possible inputs to a program, encompassing all potential values and ranges that input parameters may take.
+
+- **Importance**:
+  - Defines all possible inputs to a program.
+  - Facilitates finite set selection for testing.
+  - Essential for comprehensive test coverage.
+  - Guides testers in selecting representative input values, ensuring thorough testing of various scenarios.
+  - Assists in identifying boundary conditions and edge cases
+  - Enables efficient allocation of testing resources by focusing efforts on areas with the highest impact on system behavior.
+
+
+| Approach                      | Interface-Based                                       | Functionality-Based                                   |
+|-------------------------------|--------------------------------------------------------|------------------------------------------------------|
+| Definition                    | Derive characteristics directly from input parameters. | Derive characteristics from the behavior of the system. |
+| Focus                         | Individual input parameters.                           | Overall behavior and functionality of the system.     |
+| Characteristics               | Based on properties of input domains.                  | Based on expected behavior of the system under test.  |
+| Example                       | Partitioning input parameter regions (e.g., null, empty). | Analyzing system behavior (e.g., occurrences of elements in a list). |
+| Usage                         | Suitable for understanding input parameter properties. | Ideal for comprehending and testing system behavior.  |
+
+
+## 12.What is the "Triangle Classification Problem" or "TriTyp Problem," and what are the key aspects involved in solving it?
+
+The Triangle Classification Problem, also known as the TriTyp Problem, involves determining the type of triangle based on the lengths of its sides
+The triangle problem is the most widely used example in software testing literature
+
+- **Problem Statement**: Given three integers \(a\), \(b\), and \(c\) representing the sides of a triangle, determine the type of triangle or if it's not a triangle based on specific conditions.
+
+- **Inputs**:
+  - Integers \(a\), \(b\), and \(c\) representing the sides of the triangle.
+  - Conditions:
+    - $\(1 \leq a \leq 200\)$
+    - $\(1 \leq b \leq 200\)$
+    - $\(1 \leq c \leq 200\)$
+    - $\(a < b + c\)$
+    - $\(b < a + c\)$
+    - $\(c < a + b\)$
+
+- **Outputs**:
+  - If any input value fails conditions \(c1\), \(c2\), or \(c3\), output a message indicating the failure.
+  - If all conditions are met:
+    - If all sides are equal, output "Equilateral".
+    - If exactly one pair of sides is equal, output "Isosceles".
+    - If no pair of sides is equal, output "Scalene".
+    - If any of conditions \(c4\), \(c5\), or \(c6\) is not met, output "NotATriangle".
+
+- **Example Fix**:
+  - For the input set (2, 2, 5):
+    - The condition \(c6\) is not met, as \(c\) is greater than \(a + b\).
+    - Therefore, the output should be "NotATriangle" because the values do not form a valid triangle.
+
+
