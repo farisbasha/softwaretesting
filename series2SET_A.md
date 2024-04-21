@@ -121,17 +121,17 @@ Utilization for Improved Testing:
 
 
 ### i) Simple if
-<img width="398" alt="Screenshot 2024-04-21 at 5 42 30 PM" src="https://github.com/farisbasha/softwaretesting/assets/72191505/aa9b619a-36b5-4fee-896a-9adc0e50f3a8">
+<img width="350" alt="Screenshot 2024-04-21 at 5 42 30 PM" src="https://github.com/farisbasha/softwaretesting/assets/72191505/aa9b619a-36b5-4fee-896a-9adc0e50f3a8">
 
 
 ### ii) Switch-case
 
-<img width="590" alt="Screenshot 2024-04-21 at 5 43 25 PM" src="https://github.com/farisbasha/softwaretesting/assets/72191505/3461191e-6516-4302-a10b-f9f49c9e435f">
+<img width="350" alt="Screenshot 2024-04-21 at 5 43 25 PM" src="https://github.com/farisbasha/softwaretesting/assets/72191505/3461191e-6516-4302-a10b-f9f49c9e435f">
 
 > NOTE: You can use any simple program , this is just an example
 ### iii) Simple Loop
 
-<img width="460" alt="Screenshot 2024-04-21 at 5 44 26 PM" src="https://github.com/farisbasha/softwaretesting/assets/72191505/49776d53-833d-4a36-9d41-b7c24bf7e9b3">
+<img width="350" alt="Screenshot 2024-04-21 at 5 44 26 PM" src="https://github.com/farisbasha/softwaretesting/assets/72191505/49776d53-833d-4a36-9d41-b7c24bf7e9b3">
 
 > NOTE: You can use any simple program , this is just an example
 
