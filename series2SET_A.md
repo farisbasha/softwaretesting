@@ -26,14 +26,13 @@ A Control Flow Graph (CFG) in the context of source code:
 
 ## 3.Differentiate between interface-based and functionality-based approaches input domain modelling?
 
-| Aspect                   | Interface-based                             | Functionality-based                           |
-|--------------------------|---------------------------------------------|----------------------------------------------|
-| Focus                    | External behavior visible to users         | Internal operations and logic                |
-| Representation           | Models inputs/outputs without implementation | Models inputs, outputs, and internal processing |
-| Design Considerations    | Emphasizes defining interfaces and contracts | Considers behavior, states, and transitions |
-| Testing                  | Suitable for black-box testing             | Supports both black-box and white-box testing |
-| Flexibility              | Easy changes to internal implementation    | May require more modifications for interface changes |
-| Maintenance              | Easier due to clear interface boundaries  | Involves understanding internal logic       |
+| Approach                      | Interface-Based                                       | Functionality-Based                                   |
+|-------------------------------|--------------------------------------------------------|------------------------------------------------------|
+| Definition                    | Derive characteristics directly from input parameters. | Derive characteristics from the behavior of the system. |
+| Focus                         | Individual input parameters.                           | Overall behavior and functionality of the system.     |
+| Characteristics               | Based on properties of input domains.                  | Based on expected behavior of the system under test.  |
+| Example                       | Partitioning input parameter regions (e.g., null, empty). | Analyzing system behavior (e.g., occurrences of elements in a list). |
+| Usage                         | Suitable for understanding input parameter properties. | Ideal for comprehending and testing system behavior.  |
 
 ## 4.Write a short note on Black box testing?
 
