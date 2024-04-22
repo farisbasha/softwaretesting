@@ -2,7 +2,7 @@
 ## 1.What is Node/Vertex Coverage?
 - Node Coverage (NC) : Test set T satisfies node coverage on graph G iff for every syntactically reachable node n in N, there is some path p in path(T) such that p visits n.
 - The first (and simplest) two criteria require that each node and edge in a graph be executed
-- Node Coverage (NC) : TR(Test Requirement) contains each reachable node in G.
+
 
 
 ## 2.Explain the purpose of CFG: Switch-case in source code analysis
