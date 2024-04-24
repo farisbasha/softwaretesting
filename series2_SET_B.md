@@ -20,6 +20,7 @@ CFG analysis for switch-case statements in source code aims to map out the diffe
 
 ## 5.What is the purpose of equivalence class partitioning in testing? Provide a scenario where it would be applicable ?
 
+
 - **Reduce Test Cases**: Minimize the number of test cases by selecting representative inputs.
 - **Maximize Coverage**: Ensure comprehensive testing by covering all behaviorally equivalent inputs.
 - **Identify Defects**: Efficiently uncover defects by focusing on critical areas of the input space.
@@ -60,7 +61,7 @@ Scenario: Testing a login system for a web application.
 - One criterion includes another, making the narrower one redundant.
 - For example, path coverage subsumes edge coverage.
 - Understanding guides efficient criterion selection and testing strategy implementation.
-- Ensures focus on critical aspects while maximizing efficiency.
+
 
 - **Influence on Selection of Testing Strategies**:
   - **Coverage Hierarchy**: Understanding subsumption relationships helps prioritize testing criteria based on their level of comprehensiveness.
