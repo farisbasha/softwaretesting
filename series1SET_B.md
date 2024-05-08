@@ -41,8 +41,6 @@
 | Identifies potential security vulnerabilities   | Identifies integration issues and interoperability  |
 | Often used for security and code review         | Commonly applied in penetration testing and QA      |
 
-## **5. May be one common question  🙋**
-pass
 
 
 # **Part B**
