@@ -129,7 +129,7 @@ Cost of error correction increases as software development progresses:
 
 ## **8.Describe the role of testing in ensuring software quality and discuss its impact on overall software development processes. Provide a real-world example illustrating the importance of testing in software development.**
 
-**Role of Testing in Ensuring Software Quality:**
+
 
 Testing ensures software quality by:
 1. Identifying defects early.
